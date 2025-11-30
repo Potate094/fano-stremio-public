@@ -1,14 +1,14 @@
 {
   "name": "fano-raitino90",
   "version": "2.2.0",
-  "description": "Personīgais Fano.in Stremio addons – katram savs konts",
+  "description": "Fano.in Personal Stremio Addon by Raitino90",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "stremio-addon-sdk": "latest",
-    "axios": "latest"
+    "stremio-addon-sdk": "^1.6.10",
+    "axios": "^1.7.7"
   },
   "engines": {
     "node": ">=18"
