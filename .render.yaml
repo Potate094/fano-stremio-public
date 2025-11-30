@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: fano-raitino90
+    env: node
+    region: frankfurt
+    plan: free
+    buildCommand: npm install
+    startCommand: node index.js
+    autoDeploy: true
+    envVars:
+      NODE_VERSION: ~18
